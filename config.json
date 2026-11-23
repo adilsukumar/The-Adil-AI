@@ -1,0 +1,22 @@
+{
+  "api_provider": "gemini",
+  "model_name": "gemini-3.1-flash-lite",
+  "auto_start": true,
+  "auto_click": true,
+  "auto_click_next": false,
+  "next_click_delay_seconds": 0.5,
+  "click_offset_x": 0,
+  "click_offset_y": 0,
+  "check_interval_seconds": 0.2,
+  "new_question_diff_threshold": 0.003,
+  "min_changed_pixels": 3500,
+  "post_click_cooldown_seconds": 1.2,
+  "sound_alerts": true,
+  "hotkeys": {
+    "toggle_auto": "ctrl+alt+a",
+    "calibrate_roi": "ctrl+alt+c",
+    "solve_once": "ctrl+alt+s",
+    "quit": "ctrl+alt+q"
+  },
+  "roi": null
+}

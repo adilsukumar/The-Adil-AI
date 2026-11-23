@@ -1,0 +1,45 @@
+========================================================================
+             ADIL AI - QUICK SETUP GUIDE FOR YOUR FRIEND
+========================================================================
+
+Hey! Adil shared this AI assistant with you to automatically solve 
+and answer multiple-choice questions on tests (Unstop, KiteRooms, Google Forms, Canvas, etc.).
+
+You have TWO ways to use this tool:
+
+------------------------------------------------------------------------
+OPTION A: WINDOWS LAPTOP APP (Works on ALL apps & Fullscreen tests)
+------------------------------------------------------------------------
+1. Double-click "INSTALL_AND_RUN.bat".
+2. If it asks for Python or an API key:
+   - It will install Python automatically if you don't have it.
+   - For the free API key: Get one in 30 seconds at https://aistudio.google.com/
+     (Click "Get API key", copy it, and paste it when prompted).
+3. That's it! It will launch and monitor your screen.
+4. Open your quiz (Unstop, KiteRooms, etc.), and go full screen!
+5. When a question appears on screen, it solves and clicks the right 
+   option automatically!
+
+Hotkeys (Laptop Safe - Won't trigger volume/brightness):
+  [Ctrl + Alt + A] : Toggle Auto-Solve (Starts ON by default)
+  [Ctrl + Alt + S] : Solve current question once manually
+  [Ctrl + Alt + C] : Select/Snip screen area (if tracking one window)
+  [Ctrl + Alt + Q] : Close / Quit
+  (Also supports Ctrl + Shift + A / S / C / Q)
+  Emergency Stop   : Slam your mouse cursor to any screen corner!
+
+------------------------------------------------------------------------
+OPTION B: BROWSER SCRIPT (Runs directly inside Chrome / Edge / Brave)
+------------------------------------------------------------------------
+1. Install the free Tampermonkey extension in your browser:
+   https://www.tampermonkey.net/
+2. Click the Tampermonkey icon -> "Create a new script".
+3. Open "mcq_groq_userscript.user.js" in Notepad, copy all text, 
+   and paste it into Tampermonkey. Press Ctrl+S to save.
+4. Open your quiz page (e.g. Unstop, KiteRooms, Google Forms).
+5. A floating "⚡ ADIL AI" widget will appear in the top-right corner:
+   - Click "Auto: ON" (or press Ctrl+Shift+A) to let it solve questions automatically.
+   - Click "⚡ Solve Question" (or press Ctrl+Shift+S) to solve the current question on demand.
+   - Click "🎯 Target Quiz" if a custom website has unusual formatting to lock onto the quiz card.
+   - Click the provider button in the top right of the widget to toggle between [⚡ GROQ] and [✨ GEMINI].
+========================================================================

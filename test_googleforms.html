@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google Forms MCQ Simulator</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Google Sans', 'Roboto', Arial, sans-serif;
+    background: #f0ebf8;
+    min-height: 100vh;
+    padding-bottom: 60px;
+  }
+
+  /* Google Forms Top Banner */
+  .gf-topbar {
+    background: #673ab7;
+    height: 10px;
+    width: 100%;
+  }
+
+  .gf-header-card {
+    max-width: 640px;
+    margin: 24px auto 0;
+    background: white;
+    border-radius: 8px;
+    border-top: 10px solid #673ab7;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08);
+    padding: 24px 24px 20px;
+  }
+
+  .gf-form-title {
+    font-size: 26px;
+    font-weight: 400;
+    color: #202124;
+    margin-bottom: 8px;
+  }
+
+  .gf-form-desc {
+    font-size: 14px;
+    color: #5f6368;
+    line-height: 1.5;
+  }
+
+  .gf-form-desc a { color: #1a73e8; text-decoration: none; }
+
+  /* Question Card */
+  .gf-question-card {
+    max-width: 640px;
+    margin: 12px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08);
+    padding: 24px;
+    position: relative;
+  }
+
+  .gf-question-card.required::after {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 4px;
+    border-radius: 8px 0 0 8px;
+  }
+
+  .gf-question-title {
+    font-size: 15px;
+    font-weight: 400;
+    color: #202124;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .gf-question-title .required-star {
+    color: #d93025;
+    margin-left: 4px;
+  }
+
+  /* Radio options (Single choice) */
+  .gf-radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .gf-radio-option {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.1s;
+  }
+
+  .gf-radio-option:hover { background: #f1f3f4; }
+
+  /* Google Forms style radio — custom div[role="radio"] like real GForms */
+  .gf-radio-container {
+    position: relative;
+    width: 20px; height: 20px; flex-shrink: 0;
+  }
+
+  .gf-radio-container input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 100%; height: 100%;
+    cursor: pointer;
+    margin: 0;
+  }
+
+  .gf-radio-custom {
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    border: 2px solid #5f6368;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.1s;
+    pointer-events: none;
+  }
+
+  .gf-radio-container input:checked ~ .gf-radio-custom {
+    border-color: #673ab7;
+  }
+
+  .gf-radio-container input:checked ~ .gf-radio-custom::after {
+    content: '';
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: #673ab7;
+  }
+
+  .gf-option-text {
+    font-size: 14px;
+    color: #202124;
+    flex: 1;
+  }
+
+  /* Checkbox options (Multi-select) */
+  .gf-checkbox-option {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 10px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.1s;
+  }
+
+  .gf-checkbox-option:hover { background: #f1f3f4; }
+
+  .gf-checkbox-container {
+    position: relative;
+    width: 20px; height: 20px; flex-shrink: 0; margin-top: 1px;
+  }
+
+  .gf-checkbox-container input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 100%; height: 100%;
+    cursor: pointer;
+    margin: 0;
+  }
+
+  .gf-checkbox-custom {
+    width: 20px; height: 20px;
+    border-radius: 2px;
+    border: 2px solid #5f6368;
+    display: flex; align-items: center; justify-content: center;
+    transition: all 0.1s;
+    pointer-events: none;
+  }
+
+  .gf-checkbox-container input:checked ~ .gf-checkbox-custom {
+    border-color: #673ab7;
+    background: #673ab7;
+  }
+
+  .gf-checkbox-container input:checked ~ .gf-checkbox-custom::after {
+    content: '✓';
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  /* Submit Section */
+  .gf-submit-section {
+    max-width: 640px;
+    margin: 12px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .gf-submit-btn {
+    background: #673ab7;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  .gf-submit-btn:hover { background: #5e35b1; }
+
+  .gf-clear-btn {
+    background: none;
+    border: none;
+    color: #1a73e8;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  /* Section divider */
+  .gf-section {
+    max-width: 640px;
+    margin: 12px auto;
+    text-align: center;
+    font-size: 12px;
+    color: #5f6368;
+  }
+
+  .gf-footer {
+    max-width: 640px;
+    margin: 24px auto;
+    text-align: center;
+  }
+
+  .gf-footer img { height: 24px; opacity: 0.5; }
+  .gf-footer p { font-size: 12px; color: #5f6368; margin-top: 8px; }
+
+  /* Multi-select instruction */
+  .gf-multi-hint {
+    font-size: 12px;
+    color: #5f6368;
+    font-style: italic;
+    margin-bottom: 12px;
+    margin-top: -8px;
+  }
+</style>
+</head>
+<body>
+
+<div class="gf-topbar"></div>
+
+<!-- Form Header -->
+<div class="gf-header-card">
+  <div class="gf-form-title">📚 General Knowledge Quiz</div>
+  <div class="gf-form-desc">
+    Test your knowledge across Science, History, and Technology.<br>
+    <strong>* Required</strong>
+  </div>
+</div>
+
+<!-- Question 1: Radio (Single choice) -->
+<div class="gf-question-card" data-item-id="q1" jsmodel="q1model">
+  <div class="gf-question-title">
+    What is the powerhouse of the cell?<span class="required-star">*</span>
+  </div>
+  <div class="gf-radio-group" role="radiogroup">
+    <label class="gf-radio-option">
+      <div class="gf-radio-container">
+        <input type="radio" name="q1" value="0">
+        <div class="gf-radio-custom"></div>
+      </div>
+      <span class="gf-option-text">Nucleus</span>
+    </label>
+    <label class="gf-radio-option">
+      <div class="gf-radio-container">
+        <input type="radio" name="q1" value="1">
+        <div class="gf-radio-custom"></div>
+      </div>
+      <span class="gf-option-text">Mitochondria</span>
+    </label>
+    <label class="gf-radio-option">
+      <div class="gf-radio-container">
+        <input type="radio" name="q1" value="2">
+        <div class="gf-radio-custom"></div>
+      </div>
+      <span class="gf-option-text">Ribosome</span>
+    </label>
+    <label class="gf-radio-option">
+      <div class="gf-radio-container">
+        <input type="radio" name="q1" value="3">
+        <div class="gf-radio-custom"></div>
+      </div>
+      <span class="gf-option-text">Golgi Apparatus</span>
+    </label>
+  </div>
+</div>
+
+<!-- Question 2: Checkbox (Multi-select) -->
+<div class="gf-question-card" data-item-id="q2" jsmodel="q2model">
+  <div class="gf-question-title">
+    Which of the following are programming languages?<span class="required-star">*</span>
+  </div>
+  <div class="gf-multi-hint">Select all that apply.</div>
+  <div class="gf-checkbox-group" role="group">
+    <label class="gf-checkbox-option">
+      <div class="gf-checkbox-container">
+        <input type="checkbox" name="q2" value="0">
+        <div class="gf-checkbox-custom"></div>
+      </div>
+      <span class="gf-option-text">Python</span>
+    </label>
+    <label class="gf-checkbox-option">
+      <div class="gf-checkbox-container">
+        <input type="checkbox" name="q2" value="1">
+        <div class="gf-checkbox-custom"></div>
+      </div>
+      <span class="gf-option-text">HTML</span>
+    </label>
+    <label class="gf-checkbox-option">
+      <div class="gf-checkbox-container">
+        <input type="checkbox" name="q2" value="2">
+        <div class="gf-checkbox-custom"></div>
+      </div>
+      <span class="gf-option-text">Rust</span>
+    </label>
+    <label class="gf-checkbox-option">
+      <div class="gf-checkbox-container">
+        <input type="checkbox" name="q2" value="3">
+        <div class="gf-checkbox-custom"></div>
+      </div>
+      <span class="gf-option-text">Microsoft Excel</span>
+    </label>
+    <label class="gf-checkbox-option">
+      <div class="gf-checkbox-container">
+        <input type="checkbox" name="q2" value="4">
+        <div class="gf-checkbox-custom"></div>
+      </div>
+      <span class="gf-option-text">Go (Golang)</span>
+    </label>
+  </div>
+</div>
+
+<!-- Question 3: Radio -->
+<div class="gf-question-card" data-item-id="q3" jsmodel="q3model">
+  <div class="gf-question-title">
+    In what year did World War II end?<span class="required-star">*</span>
+  </div>
+  <div class="gf-radio-group" role="radiogroup">
+    <label class="gf-radio-option">
+      <div class="gf-radio-container">
+        <input type="radio" name="q3" value="0">
+        <div class="gf-radio-custom"></div>
+      </div>
+      <span class="gf-option-text">1943</span>
+    </label>
+    <label class="gf-radio-option">
+      <div class="gf-radio-container">
+        <input type="radio" name="q3" value="1">
+        <div class="gf-radio-custom"></div>
+      </div>
+      <span class="gf-option-text">1945</span>
+    </label>
+    <label class="gf-radio-option">
+      <div class="gf-radio-container">
+        <input type="radio" name="q3" value="2">
+        <div class="gf-radio-custom"></div>
+      </div>
+      <span class="gf-option-text">1947</span>
+    </label>
+    <label class="gf-radio-option">
+      <div class="gf-radio-container">
+        <input type="radio" name="q3" value="3">
+        <div class="gf-radio-custom"></div>
+      </div>
+      <span class="gf-option-text">1950</span>
+    </label>
+  </div>
+</div>
+
+<!-- Question 4: Checkbox (Multi-select) -->
+<div class="gf-question-card" data-item-id="q4" jsmodel="q4model">
+  <div class="gf-question-title">
+    Which planets in our Solar System have rings?<span class="required-star">*</span>
+  </div>
+  <div class="gf-multi-hint">Select all that apply.</div>
+  <div class="gf-checkbox-group" role="group">
+    <label class="gf-checkbox-option">
+      <div class="gf-checkbox-container">
+        <input type="checkbox" name="q4" value="0">
+        <div class="gf-checkbox-custom"></div>
+      </div>
+      <span class="gf-option-text">Jupiter</span>
+    </label>
+    <label class="gf-checkbox-option">
+      <div class="gf-checkbox-container">
+        <input type="checkbox" name="q4" value="1">
+        <div class="gf-checkbox-custom"></div>
+      </div>
+      <span class="gf-option-text">Saturn</span>
+    </label>
+    <label class="gf-checkbox-option">
+      <div class="gf-checkbox-container">
+        <input type="checkbox" name="q4" value="2">
+        <div class="gf-checkbox-custom"></div>
+      </div>
+      <span class="gf-option-text">Earth</span>
+    </label>
+    <label class="gf-checkbox-option">
+      <div class="gf-checkbox-container">
+        <input type="checkbox" name="q4" value="3">
+        <div class="gf-checkbox-custom"></div>
+      </div>
+      <span class="gf-option-text">Uranus</span>
+    </label>
+    <label class="gf-checkbox-option">
+      <div class="gf-checkbox-container">
+        <input type="checkbox" name="q4" value="4">
+        <div class="gf-checkbox-custom"></div>
+      </div>
+      <span class="gf-option-text">Neptune</span>
+    </label>
+  </div>
+</div>
+
+<!-- Question 5: Radio -->
+<div class="gf-question-card" data-item-id="q5" jsmodel="q5model">
+  <div class="gf-question-title">
+    What does "HTTP" stand for?<span class="required-star">*</span>
+  </div>
+  <div class="gf-radio-group" role="radiogroup">
+    <label class="gf-radio-option">
+      <div class="gf-radio-container">
+        <input type="radio" name="q5" value="0">
+        <div class="gf-radio-custom"></div>
+      </div>
+      <span class="gf-option-text">HyperText Transfer Protocol</span>
+    </label>
+    <label class="gf-radio-option">
+      <div class="gf-radio-container">
+        <input type="radio" name="q5" value="1">
+        <div class="gf-radio-custom"></div>
+      </div>
+      <span class="gf-option-text">HighText Transfer Protocol</span>
+    </label>
+    <label class="gf-radio-option">
+      <div class="gf-radio-container">
+        <input type="radio" name="q5" value="2">
+        <div class="gf-radio-custom"></div>
+      </div>
+      <span class="gf-option-text">HyperText Transmission Protocol</span>
+    </label>
+    <label class="gf-radio-option">
+      <div class="gf-radio-container">
+        <input type="radio" name="q5" value="3">
+        <div class="gf-radio-custom"></div>
+      </div>
+      <span class="gf-option-text">Hyperlink Transfer Protocol</span>
+    </label>
+  </div>
+</div>
+
+<!-- Submit -->
+<div class="gf-submit-section">
+  <button class="gf-submit-btn">Submit</button>
+  <button class="gf-clear-btn">Clear form</button>
+</div>
+
+<div class="gf-section">
+  <p>Never submit passwords through Google Forms.</p>
+</div>
+
+<div class="gf-footer">
+  <p>Google Forms</p>
+</div>
+
+<script>
+  // Visual feedback for radio
+  document.querySelectorAll('.gf-radio-option').forEach(opt => {
+    opt.addEventListener('click', () => {
+      const name = opt.querySelector('input').name;
+      document.querySelectorAll(`input[name="${name}"]`).forEach(inp => {
+        inp.closest('.gf-radio-option').style.background = '';
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
