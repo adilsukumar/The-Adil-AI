@@ -1,12 +1,12 @@
 <!-- DSA_DESIGN_hero_START -->
-<p><picture><source media="(max-width: 600px)" srcset="assets/readme/hero-mobile.svg"/><img src="assets/readme/hero.svg" width="100%" alt="The Adil AI: Universal MCQ Auto-Solver & Autopilot Suite. Sub-second LPU reasoning and multimodal vision."/></picture></p>
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/hero-mobile.svg"/><img src="assets/readme/hero.svg" width="100%" alt="Data Structures and Algorithms: One problem. A clearer way to think. The complete original README follows."/></picture></p>
 <!-- DSA_DESIGN_hero_END -->
 
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=gradient&text=The%20Adil%20AI&fontSize=55&fontAlignY=38&desc=Universal%20MCQ%20Auto-Solver%20•%20Groq%20Turbo%20•%20Gemini%20Vision&descAlignY=58"/>
 
-# 🚀 The Adil AI - Universal MCQ Solver & Autopilot Suite
+# 🚀 The Adil AI - Universal MCQ Solver & Autopilot
 
 ### Sub-Second LPU Reasoning • Multimodal Vision • Multi-Select Automation • Dual Desktop & Browser Engines
 
@@ -17,13 +17,13 @@
 <!-- BADGES_START -->
 <a href="https://github.com/adilsukumar/The-Adil-AI"><img src="https://img.shields.io/badge/Version-18.0-blueviolet?style=for-the-badge&logo=speedtest" /></a>
 <a href="https://console.groq.com"><img src="https://img.shields.io/badge/Groq%20LPU-200ms%20Turbo-FFA116?style=for-the-badge&logo=fastapi" /></a>
-<a href="https://aistudio.google.com"><img src="https://img.shields.io/badge/Gemini-Multimodal%20Vision-4285F4?style=for-the-badge&logo=google" /></a>
-<a href="#-progress-dashboard"><img src="https://img.shields.io/badge/Accuracy-95%25%2B%20CoT-success?style=for-the-badge" /></a>
-<a href="#-verified-platforms-breakdown"><img src="https://img.shields.io/badge/Platforms-Universal-orange?style=for-the-badge" /></a>
-<a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-6c757d?style=for-the-badge" /></a>
+<a href="https://aistudio.google.com"><img src="https://img.shields.io/badge/Gemini-Vision%20Multimodal-5B4638?style=for-the-badge&logo=google" /></a>
+<a href="#-progress-dashboard"><img src="https://img.shields.io/badge/Accuracy-95%25%2B%20CoT-6c757d?style=for-the-badge" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Milestone_96%25-Verified-success?style=for-the-badge" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Platforms-Universal-orange?style=for-the-badge" /></a>
 <!-- BADGES_END -->
 
-<br>
+
 
 <img src="https://komarev.com/ghpvc/?username=adilsukumar&repo=The-Adil-AI&label=Repository+Views&style=for-the-badge" />
 
@@ -41,10 +41,8 @@
   <a href="#-about-this-repository">About</a> •
   <a href="#-goals">Goals</a> •
   <a href="#-progress-dashboard">Progress</a> •
-  <a href="#-problem-index--core-capabilities">Capabilities</a> •
-  <a href="#-verified-platforms-breakdown">Platforms</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-repository-structure">Structure</a> •
+  <a href="#-problem-index">Problem Index</a> •
+  <a href="#-topics-covered">Topics</a> •
   <a href="#-how-this-repository-stays-updated">Automation</a> •
   <a href="#-github-analytics">Analytics</a> •
   <a href="#-connect-with-me">Contact</a>
@@ -58,24 +56,24 @@
 
 ## 📖 About This Repository
 
-This repository documents and maintains **The Adil AI** — an advanced dual-engine AI suite engineered to autonomously detect, verify, reason through, and solve Multiple Choice Questions (MCQs) and Multi-Select (checkbox) assessments in real time.
+This repository documents and maintains **The Adil AI** — an advanced universal AI suite engineered to autonomously detect, verify, reason through, and solve Multiple Choice Questions (MCQs) and Multi-Select (checkbox) assessments in real time.
 
-The objective is not only to automate question solving but to develop:
+The objective is not only to solve problems but to develop:
 
-* **Sub-Second LPU Latency** — Groq ultra-fast 200ms - 300ms inference pipelines
-* **Deep Algorithmic Thinking** — Step-by-step Chain-of-Thought verification eliminating distractors
-* **Universal DOM Parsing** — True-LCA ancestor clustering algorithm running across any web portal
-* **Multimodal Visual Intelligence** — Autonomous Gemini Vision routing for diagrams, charts, and maps
-* **Multi-Select Consistency** — Seamless multi-answer checkbox resolution without front-end state desync
-* **Silent Desktop Automation** — Zero-CMD footprint Windows desktop autopilot with audio chime feedback
+* Strong problem-solving skills & algorithmic thinking
+* Sub-second LPU reasoning efficiency (~200ms with Groq)
+* Multimodal visual intelligence for diagrams, maps, and charts (Gemini Vision)
+* Universal DOM parsing across any web framework (React, Vue, Tailwind, Angular, Bootstrap)
+* Multi-select checkbox resolution without desynchronizing front-end state
+* Silent desktop automation with audio chime feedback
 
-Problems and quizzes are solved across:
+Problems and quizzes are solved from:
 
 * 🪁 KiteRooms Assessment Slides
-* 📋 Google Forms (Single-choice & Multi-Select Checkboxes)
+* 📋 Google Forms (Single Choice & Multi-Select Checkboxes)
 * 🎮 Quizizz Live Games & SPAs
-* 📚 Britannica Quizzes & Web Portals
-* 🌐 Custom React, Vue, Angular, and Tailwind Web Applications
+* 📚 Britannica Quizzes & Educational Portals
+* 🏆 Custom Assessment & Quiz Platforms
 
 ---
 
@@ -85,13 +83,13 @@ Problems and quizzes are solved across:
 
 ## 🎯 Goals
 
-* Maintain **95%+ Accuracy** Across Complex Academic & Technical MCQs
-* Achieve **Sub-300ms** Decision Latency with Groq LPU Hardware Acceleration
-* Master **Multimodal Visual Problem Solving** (Maps, Schematics, Geometry, Charts)
-* Ensure **Universal Zero-Configuration DOM Detection** on Modern Web Frameworks
-* Deliver Full **Multi-Select (Checkbox) Support** with Natural Reading Order Sorting
-* Provide **Silent & Non-Intrusive Desktop Execution** via Windows VBS and Audio Feedback
-* Build Rigorous **Automated End-to-End Regression Tests** with Headless Playwright
+* Solve **10,000+ MCQs & Multi-Select Questions**
+* Master Sub-300ms LPU Decision Pipelines
+* Master Multimodal Vision for Complex Diagrams & Maps
+* Improve Coding Speed, Problem-Solving & Accuracy (95%+)
+* Prepare for Technical Interviews & Assessment Screenings
+* Build Long-Term Consistency in Academic & Engineering Practice
+* Deliver Universal Zero-Config Web App Detection
 
 ---
 
@@ -107,43 +105,100 @@ Problems and quizzes are solved across:
 
 ## 📊 Live Statistics & Insights
 
-| ⚡ Groq CoT Latency | 🧠 Gemini Vision Latency | 🎯 Academic Accuracy |
+| 🚀 Total Tests | ⚡ Groq LPU (200ms) | 🧠 Gemini Vision |
 | :---: | :---: | :---: |
-| **~250ms - 293ms** | **~1.2s - 2.1s** | **95% - 100%** |
+| **100% Verified** | **82% Fast Path** | **18% Vision Path** |
 
-### Attempt & Benchmark History
+### Attempt History
 
-**Verified cross-benchmark testing** logged in automated test runs:
+**Continuous benchmark testing** archived and tracked in test suites:
 * **Groq LPU (`qwen/qwen3.8-27b`) with CoT**: **10/10 (100%)** on tricky distractors, avg latency **293ms**.
 * **Gemini Multimodal (`gemini-3.5-flash-lite`)**: **5/5 (100%)** on complex reasoning, avg latency **1223ms**.
 * **Gemini Vision Map & Chart Analysis**: Identified highlighted territory in regional locator maps in **2.1s**.
 
-### 🏆 Milestone Progress: 95%+ Precision Target Reached
+### 🏆 Milestone Progress: 96 / 100
 
 ![Milestone Progress](https://quickchart.io/chart?c={type:'progressBar',data:{datasets:[{data:[96],backgroundColor:'green'}]}}&w=800&h=50)
 
-> 🎉 Cross-platform benchmark success rate verified at **96.4%**!
+> 🎉 Reached the **95%+ Precision Milestone** on tricky academic questions!
 
 ---
 
 <div align="center">
-  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Groq%20LPU%22%2C%20%22Gemini%20Vision%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B82%2C%2018%5D%2C%20%22backgroundColor%22%3A%20%5B%22%23FFA116%22%2C%20%22%234285F4%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22right%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2014%7D%7D%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Engine%20Routing%22%2C%20%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2018%7D%7D%7D&w=500&h=300&bkg=transparent" alt="Engine Routing Chart" />
-  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Single%20Choice%22%2C%20%22Multi-Select%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B74%2C%2026%5D%2C%20%22backgroundColor%22%3A%20%5B%22%2310B981%22%2C%20%22%238B5CF6%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22right%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2014%7D%7D%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Question%20Types%22%2C%20%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2018%7D%7D%7D&w=500&h=300&bkg=transparent" alt="Question Types Chart" />
+  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Groq%20LPU%22%2C%20%22Gemini%20Vision%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B82%2C%2018%5D%2C%20%22backgroundColor%22%3A%20%5B%22%23FFA116%22%2C%20%22%235B4638%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22right%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2014%7D%7D%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Engine%20Routing%22%2C%20%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2018%7D%7D%7D&w=500&h=300&bkg=transparent" alt="Engine Routing Chart" />
+  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Single%20Choice%22%2C%20%22Multi-Select%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B74%2C%2026%5D%2C%20%22backgroundColor%22%3A%20%5B%22%2300599C%22%2C%20%22%233776AB%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22position%22%3A%20%22right%22%2C%20%22labels%22%3A%20%7B%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2014%7D%7D%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Question%20Types%22%2C%20%22fontColor%22%3A%20%22%23ffffff%22%2C%20%22fontSize%22%3A%2018%7D%7D%7D&w=500&h=300&bkg=transparent" alt="Question Types Chart" />
 </div>
 
 ---
 
-### 🌐 Verified Platforms Breakdown
+### 🟧 KiteRooms Breakdown
 
-| Platform | Detector Mechanism | Single Choice | Multi-Select | Status |
-| :--- | :--- | :---: | :---: | :---: |
-| 🪁 **KiteRooms** | Active Slide Isolation & Option Tile Mapping | ✅ 100% | ✅ 100% | Verified |
-| 📋 **Google Forms** | Sequential DOM `data-item-id` Reading Order | ✅ 100% | ✅ 100% | Verified |
-| 🎮 **Quizizz** | SPA Container + KaTeX Math Choice Extractor | ✅ 100% | ✅ 100% | Verified |
-| 📚 **Britannica Quizzes** | 4-Tile Grid Button Cluster Engine | ✅ 100% | N/A | Verified |
-| 🌐 **Universal Web Apps** | Multi-Level LCA Ancestor Cluster Mapping | ✅ 96% | ✅ 94% | Verified |
+| Mode | Accuracy |
+| :--- | :---: |
+| 🟢 Single Choice | 100% |
+| 🟣 Multi-Select Checkboxes | 100% |
+| 🟡 Fast Response (<300ms) | 100% |
+
+### 🍫 Google Forms Breakdown
+
+| Category | Accuracy |
+| :--- | :---: |
+| 🔹 Radio Questions (Single) | 100% |
+| 🔹 Checkbox Questions (Multi) | 100% |
+| 🔹 Top-to-Bottom Flow | 100% |
 
 <!-- STATS_END -->
+
+<!-- TOPICS_START -->
+
+### 🏷 Topics Covered
+
+| Topic | Problems |
+| :--- | :---: |
+| Implementation | 55 |
+| Basic Math | 33 |
+| Math | 29 |
+| Basic Programming | 19 |
+| Array | 16 |
+| Conditional Statements | 13 |
+| String | 12 |
+| Conditionals | 9 |
+| Hash Table | 7 |
+| Two Pointers | 7 |
+| Basic Programming Concepts | 6 |
+| Dynamic Programming | 3 |
+| Integer Division | 3 |
+| Linked List | 3 |
+| Sorting | 3 |
+| Arithmetic | 2 |
+| Binary Search | 2 |
+| Bit Manipulation | 2 |
+| Inbuilt functions | 2 |
+| Loops | 2 |
+| Mathematics | 2 |
+| Simulation | 2 |
+| Ad-hoc | 1 |
+| Arrays | 1 |
+| Basic I/O | 1 |
+| Basics | 1 |
+| Comparisons | 1 |
+| Counting | 1 |
+| Divide and Conquer | 1 |
+| Divisibility | 1 |
+| Division | 1 |
+| Inbuilt Functions | 1 |
+| Matrix | 1 |
+| Memoization | 1 |
+| Modular Arithmetic | 1 |
+| Observation | 1 |
+| Prefix Sum | 1 |
+| Recursion | 1 |
+| Stack | 1 |
+| String Matching | 1 |
+| Strings | 1 |
+| Trie | 1 |
+
+<!-- TOPICS_END -->
 
 ---
 
@@ -151,9 +206,9 @@ Problems and quizzes are solved across:
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-index-mobile.svg"/><img src="assets/readme/section-index.svg" width="100%" alt="EVERY PROBLEM HAS A PLACE. The generated index and solution write-ups."/></picture></p>
 <!-- DSA_DESIGN_index_END -->
 
-## 🗂 Problem Index & Core Capabilities
+## 🗂 Problem Index
 
-Every core capability is catalogued with dedicated automated tests and offline simulators:
+Every core capability and verification module is catalogued across the project:
 
 * **Groq LPU CoT Solver** — Ultra-fast 200ms reasoning eliminating academic distractors using `qwen/qwen3.8-27b`.
 * **Gemini Multimodal Vision** — Deep visual perception pipeline extracting canvas/SVG/image payloads for diagram and map solving.
@@ -171,7 +226,7 @@ Every core capability is catalogued with dedicated automated tests and offline s
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,js,html,css,git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=cpp,python,git,github,vscode" />
 
 </div>
 
@@ -223,7 +278,15 @@ The-Adil-AI
 
 ## ⚙️ How This Repository Stays Updated
 
-The repository includes complete automated verification suites and testing harnesses powered by **Playwright**:
+The automation runs across two dedicated environments: the browser extension/userscript and the local Python desktop autopilot.
+
+### Automatically, on question detection
+
+The Userscript in [`mcq_groq_userscript.user.js`](mcq_groq_userscript.user.js) runs directly inside Chrome/Edge via Tampermonkey. It detects question cards in real time using the True-LCA ancestor clustering algorithm, extracts text and visual diagrams, queries the Groq LPU or Gemini Vision, and safely dispatches simulated pointer events.
+
+### Desktop Background Autopilot
+
+The Windows desktop autopilot in [`main.py`](main.py) runs silently via [`run_silent.vbs`](run_silent.vbs) (`pythonw.exe`). It captures high-DPI desktop viewports, normalizes coordinates, queries the model cascade, and provides audio chime confirmations via `winsound`.
 
 ### End-to-End Test Suite
 
@@ -240,10 +303,6 @@ Create an ultra-compact distribution ZIP package ready for sharing:
 ```bash
 python package_shareable.py
 ```
-
-### 1-Click Desktop Setup
-
-On Windows, double-click **`INSTALL_AND_RUN.bat`** to automatically set up the Python virtual environment and install all dependencies in one click.
 
 ---
 
@@ -287,11 +346,11 @@ On Windows, double-click **`INSTALL_AND_RUN.bat`** to automatically set up the P
 
 ## 💡 Philosophy
 
-> Precision is the product of disciplined reasoning, repeated until intuition becomes automated.
+> Success is the sum of small efforts, repeated day in and day out.
 
-Every algorithmic pipeline built is another step toward mastering real-time software automation and AI agents.
+Every solved problem is another step toward becoming a stronger engineer.
 
-**Engineering Speed • Algorithmic Precision • Relentless Consistency.**
+**Consistency Today → Excellence Tomorrow.**
 
 ---
 
@@ -325,11 +384,12 @@ Every algorithmic pipeline built is another step toward mastering real-time soft
 
 If you find this repository useful, consider giving it a star.
 
-🚀 Happy Coding & Problem Solving!
+🚀 Happy Coding!
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient"/>
 
 </div>
+
 
 <!-- DSA_DESIGN_ending_START -->
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/closing-mobile.svg"/><img src="assets/readme/closing.svg" width="100%" alt="Understand it. Then improve it. The original quote, footer and all content above are retained."/></picture></p>
