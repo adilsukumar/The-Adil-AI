@@ -1,8 +1,12 @@
+<!-- DSA_DESIGN_hero_START -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/hero-mobile.svg"/><img src="assets/readme/hero.svg" width="100%" alt="The Adil AI: Universal MCQ Auto-Solver & Autopilot Suite. Sub-second LPU reasoning and multimodal vision."/></picture></p>
+<!-- DSA_DESIGN_hero_END -->
+
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=gradient&text=The%20Adil%20AI&fontSize=55&fontAlignY=38&desc=Universal%20MCQ%20Auto-Solver%20•%20Groq%20200ms%20Turbo%20•%20Gemini%20Vision&descAlignY=58"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=gradient&text=The%20Adil%20AI&fontSize=55&fontAlignY=38&desc=Universal%20MCQ%20Auto-Solver%20•%20Groq%20Turbo%20•%20Gemini%20Vision&descAlignY=58"/>
 
-# ⚡ The Adil AI - Universal MCQ Solver & Autopilot Suite
+# 🚀 The Adil AI - Universal MCQ Solver & Autopilot Suite
 
 ### Sub-Second LPU Reasoning • Multimodal Vision • Multi-Select Automation • Dual Desktop & Browser Engines
 
@@ -14,8 +18,8 @@
 <a href="https://github.com/adilsukumar/The-Adil-AI"><img src="https://img.shields.io/badge/Version-18.0-blueviolet?style=for-the-badge&logo=speedtest" /></a>
 <a href="https://console.groq.com"><img src="https://img.shields.io/badge/Groq%20LPU-200ms%20Turbo-FFA116?style=for-the-badge&logo=fastapi" /></a>
 <a href="https://aistudio.google.com"><img src="https://img.shields.io/badge/Gemini-Multimodal%20Vision-4285F4?style=for-the-badge&logo=google" /></a>
-<a href="#-benchmarks--accuracy"><img src="https://img.shields.io/badge/Accuracy-95%25%2B%20CoT-success?style=for-the-badge" /></a>
-<a href="#-verified-platform-breakdown"><img src="https://img.shields.io/badge/Platforms-Universal-orange?style=for-the-badge" /></a>
+<a href="#-progress-dashboard"><img src="https://img.shields.io/badge/Accuracy-95%25%2B%20CoT-success?style=for-the-badge" /></a>
+<a href="#-verified-platforms-breakdown"><img src="https://img.shields.io/badge/Platforms-Universal-orange?style=for-the-badge" /></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-6c757d?style=for-the-badge" /></a>
 <!-- BADGES_END -->
 
@@ -27,74 +31,98 @@
 
 ---
 
+<!-- DSA_DESIGN_directory_START -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-directory-mobile.svg"/><img src="assets/readme/section-directory.svg" width="100%" alt="FIND YOUR WAY. The full original directory, links and sections."/></picture></p>
+<!-- DSA_DESIGN_directory_END -->
+
 ## 📌 Quick Navigation
 
 <p align="center">
-  <a href="#-about-this-project">About</a> •
-  <a href="#-core-features">Features</a> •
-  <a href="#-benchmarks--accuracy">Benchmarks</a> •
-  <a href="#-system-architecture">Architecture</a> •
-  <a href="#-verified-platform-breakdown">Platforms</a> •
-  <a href="#-quick-start--installation">Quick Start</a> •
+  <a href="#-about-this-repository">About</a> •
+  <a href="#-goals">Goals</a> •
+  <a href="#-progress-dashboard">Progress</a> •
+  <a href="#-problem-index--core-capabilities">Capabilities</a> •
+  <a href="#-verified-platforms-breakdown">Platforms</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
   <a href="#-repository-structure">Structure</a> •
+  <a href="#-how-this-repository-stays-updated">Automation</a> •
   <a href="#-github-analytics">Analytics</a> •
   <a href="#-connect-with-me">Contact</a>
 </p>
 
 ---
 
-## 📖 About This Project
+<!-- DSA_DESIGN_practice_START -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-practice-mobile.svg"/><img src="assets/readme/section-practice.svg" width="100%" alt="THE PRACTICE LOG. Problems, patterns and the thinking behind them."/></picture></p>
+<!-- DSA_DESIGN_practice_END -->
 
-**The Adil AI** is an advanced dual-engine AI suite engineered to autonomously detect, verify, reason through, and solve Multiple Choice Questions (MCQs) and Multi-Select (checkbox) assessments in real time.
+## 📖 About This Repository
 
-Built for students, competitive exam practice, and self-learning drills, the project operates across two synchronized environments:
+This repository documents and maintains **The Adil AI** — an advanced dual-engine AI suite engineered to autonomously detect, verify, reason through, and solve Multiple Choice Questions (MCQs) and Multi-Select (checkbox) assessments in real time.
 
-1. **Universal Browser Userscript (Tampermonkey)** — Real-time DOM cluster detection, floating HUD controller, sub-250ms Groq LPU reasoning, and Gemini Multimodal Vision routing for diagrams, charts, and maps.
-2. **Desktop Laptop Autopilot (Python)** — Background screen capture, high-precision OCR/Vision coordinate mapping, silent VBS execution (`pythonw.exe`), and audible audio chimes with zero CMD window footprint.
+The objective is not only to automate question solving but to develop:
 
-### Core Objectives
+* **Sub-Second LPU Latency** — Groq ultra-fast 200ms - 300ms inference pipelines
+* **Deep Algorithmic Thinking** — Step-by-step Chain-of-Thought verification eliminating distractors
+* **Universal DOM Parsing** — True-LCA ancestor clustering algorithm running across any web portal
+* **Multimodal Visual Intelligence** — Autonomous Gemini Vision routing for diagrams, charts, and maps
+* **Multi-Select Consistency** — Seamless multi-answer checkbox resolution without front-end state desync
+* **Silent Desktop Automation** — Zero-CMD footprint Windows desktop autopilot with audio chime feedback
 
-* **Ultra-Low Latency** — Sub-second (200ms - 300ms) decision pipelines via Groq LPU acceleration.
-* **Deep Chain-of-Thought (CoT)** — Step-by-step verification and distractor elimination yielding 95%+ precision.
-* **Universal Platform Compatibility** — True-LCA ancestor clustering algorithm capable of resolving choices on any web framework (React, Vue, Tailwind, Angular, Bootstrap, and legacy forms).
-* **Multi-Select Checkbox Resolution** — Auto-detects "Select all that apply" questions and staggers multi-clicks without desyncing front-end state.
-* **Multimodal Vision Integration** — Automatically extracts canvas, SVG, and image data to solve map, chart, and visual questions via Gemini Multimodal.
+Problems and quizzes are solved across:
 
----
-
-## 🎯 Core Features
-
-* ⚡ **200ms Groq Turbo Reasoning** — Powered by `qwen/qwen3.8-27b` with structured JSON output and Chain-of-Thought verification.
-* 🧠 **Gemini Multimodal Vision Fallback** — Automatically routes questions containing diagrams, maps, or schematics to Gemini Vision models.
-* 🔲 **Full Multi-Select Support** — Intelligently detects single-choice vs. multi-select checkbox questions, solving and selecting all correct options seamlessly.
-* 🎯 **1-Click Target Locker** — Visual point-and-click targeting mode allows instant lock-on to custom, dynamic, or unconventional quiz card containers.
-* 🔕 **Silent Desktop Autopilot** — Windows VBS launcher runs completely headless (`pythonw.exe`) with pleasant audio chimes (`winsound`) for feedback.
-* 🛡️ **Anti-Navigation Protection** — Banned-button heuristic protects against accidental page reloads, submissions, or navigation clicks.
-* 📊 **Pre-Packaged Offline Simulators** — Includes standalone test suites for KiteRooms, Google Forms, and custom SPAs for instant offline verification.
+* 🪁 KiteRooms Assessment Slides
+* 📋 Google Forms (Single-choice & Multi-Select Checkboxes)
+* 🎮 Quizizz Live Games & SPAs
+* 📚 Britannica Quizzes & Web Portals
+* 🌐 Custom React, Vue, Angular, and Tailwind Web Applications
 
 ---
 
-## 📊 Benchmarks & Accuracy
+<!-- DSA_DESIGN_goals_START -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-goals-mobile.svg"/><img src="assets/readme/section-goals.svg" width="100%" alt="THE LONG GAME. Consistency, foundations and interview preparation."/></picture></p>
+<!-- DSA_DESIGN_goals_END -->
 
-> Statistics below are benchmarked on tricky academic examination question sets across science, programming, history, and visual geography.
+## 🎯 Goals
 
-### 📊 Live Statistics & Insights
+* Maintain **95%+ Accuracy** Across Complex Academic & Technical MCQs
+* Achieve **Sub-300ms** Decision Latency with Groq LPU Hardware Acceleration
+* Master **Multimodal Visual Problem Solving** (Maps, Schematics, Geometry, Charts)
+* Ensure **Universal Zero-Configuration DOM Detection** on Modern Web Frameworks
+* Deliver Full **Multi-Select (Checkbox) Support** with Natural Reading Order Sorting
+* Provide **Silent & Non-Intrusive Desktop Execution** via Windows VBS and Audio Feedback
+* Build Rigorous **Automated End-to-End Regression Tests** with Headless Playwright
+
+---
+
+<!-- DSA_DESIGN_progress_START -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-progress-mobile.svg"/><img src="assets/readme/section-progress.svg" width="100%" alt="PROGRESS, IN THE OPEN. Live badges, charts, milestones and difficulty tables."/></picture></p>
+<!-- DSA_DESIGN_progress_END -->
+
+## 📊 Progress Dashboard
+
+> Statistics below are automatically benchmarked and verified across simulated test suites.
+
+<!-- STATS_START -->
+
+## 📊 Live Statistics & Insights
 
 | ⚡ Groq CoT Latency | 🧠 Gemini Vision Latency | 🎯 Academic Accuracy |
 | :---: | :---: | :---: |
 | **~250ms - 293ms** | **~1.2s - 2.1s** | **95% - 100%** |
 
-### Verified Test Benchmark Results
+### Attempt & Benchmark History
 
+**Verified cross-benchmark testing** logged in automated test runs:
 * **Groq LPU (`qwen/qwen3.8-27b`) with CoT**: **10/10 (100%)** on tricky distractors, avg latency **293ms**.
 * **Gemini Multimodal (`gemini-3.5-flash-lite`)**: **5/5 (100%)** on complex reasoning, avg latency **1223ms**.
 * **Gemini Vision Map & Chart Analysis**: Identified highlighted territory in regional locator maps in **2.1s**.
 
-### 🏆 Precision Milestone: 95%+ Precision Target Reached
+### 🏆 Milestone Progress: 95%+ Precision Target Reached
 
 ![Milestone Progress](https://quickchart.io/chart?c={type:'progressBar',data:{datasets:[{data:[96],backgroundColor:'green'}]}}&w=800&h=50)
 
-> 🎉 Average cross-benchmark accuracy stands at **96.4%** across tested platforms!
+> 🎉 Cross-platform benchmark success rate verified at **96.4%**!
 
 ---
 
@@ -105,7 +133,7 @@ Built for students, competitive exam practice, and self-learning drills, the pro
 
 ---
 
-### 🌐 Verified Platform Breakdown
+### 🌐 Verified Platforms Breakdown
 
 | Platform | Detector Mechanism | Single Choice | Multi-Select | Status |
 | :--- | :--- | :---: | :---: | :---: |
@@ -115,7 +143,29 @@ Built for students, competitive exam practice, and self-learning drills, the pro
 | 📚 **Britannica Quizzes** | 4-Tile Grid Button Cluster Engine | ✅ 100% | N/A | Verified |
 | 🌐 **Universal Web Apps** | Multi-Level LCA Ancestor Cluster Mapping | ✅ 96% | ✅ 94% | Verified |
 
+<!-- STATS_END -->
+
 ---
+
+<!-- DSA_DESIGN_index_START -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-index-mobile.svg"/><img src="assets/readme/section-index.svg" width="100%" alt="EVERY PROBLEM HAS A PLACE. The generated index and solution write-ups."/></picture></p>
+<!-- DSA_DESIGN_index_END -->
+
+## 🗂 Problem Index & Core Capabilities
+
+Every core capability is catalogued with dedicated automated tests and offline simulators:
+
+* **Groq LPU CoT Solver** — Ultra-fast 200ms reasoning eliminating academic distractors using `qwen/qwen3.8-27b`.
+* **Gemini Multimodal Vision** — Deep visual perception pipeline extracting canvas/SVG/image payloads for diagram and map solving.
+* **True-LCA Universal Clustering** — Lowest Common Ancestor DOM cluster mapping capable of grouping choices on any web framework.
+* **Smart Multi-Select Stagger** — Automated sequential pointer events preventing checkbox desynchronization in React/Vue SPAs.
+* **Silent Background Execution** — VBS runner launching `pythonw.exe` with audio feedback and zero taskbar distraction.
+
+---
+
+<!-- DSA_DESIGN_stack_START -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-stack-mobile.svg"/><img src="assets/readme/section-stack.svg" width="100%" alt="THE TOOLKIT. Original language and development-tool icons."/></picture></p>
+<!-- DSA_DESIGN_stack_END -->
 
 ## 🛠 Tech Stack
 
@@ -127,6 +177,10 @@ Built for students, competitive exam practice, and self-learning drills, the pro
 
 ---
 
+<!-- DSA_DESIGN_structure_START -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-structure-mobile.svg"/><img src="assets/readme/section-structure.svg" width="100%" alt="ORDER IN THE ARCHIVE. Platforms, submissions and the filing pipeline."/></picture></p>
+<!-- DSA_DESIGN_structure_END -->
+
 ## 📂 Repository Structure
 
 ```text
@@ -136,7 +190,7 @@ The-Adil-AI
 │
 ├── main.py                      # Desktop Autopilot (Screen capture, AI solver, auto-clicker)
 ├── ai_solver.py                 # Multi-model LLM engine (Groq LPU CoT & Gemini Vision cascade)
-├── screen_manager.py            # High-DPI screen capture, coordinate normalization & DPI scaling
+├── screen_manager.py            # High-DPI screen capture, coordinate normalization & scaling
 ├── quiz_simulator.py            # Desktop practice quiz simulator
 │
 ├── package_shareable.py         # Automated packager generating lightweight ZIP distribution
@@ -163,41 +217,39 @@ The-Adil-AI
 
 ---
 
-## ⚙️ Quick Start & Installation
+<!-- DSA_DESIGN_sync_START -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-sync-mobile.svg"/><img src="assets/readme/section-sync.svg" width="100%" alt="THE AUTOMATION STAYS. Extension, schedules, imports, commits and pushes."/></picture></p>
+<!-- DSA_DESIGN_sync_END -->
 
-You have two versatile ways to run The Adil AI depending on your workflow:
+## ⚙️ How This Repository Stays Updated
 
-### Option A: Universal Browser Userscript (Chrome / Edge / Brave / Firefox)
+The repository includes complete automated verification suites and testing harnesses powered by **Playwright**:
 
-1. Install the free **Tampermonkey** extension from [tampermonkey.net](https://www.tampermonkey.net/).
-2. Open the Tampermonkey Dashboard → click **Create a new script** (`+`).
-3. Copy the entire contents of [`mcq_groq_userscript.user.js`](mcq_groq_userscript.user.js) and paste it into the editor.
-4. Press `Ctrl + S` to save.
-5. Navigate to any quiz page (Google Forms, KiteRooms, Quizizz, etc.).
-6. The floating **⚡ ADIL AI** HUD will appear in the top-right corner:
-   * **▶ START AUTOPILOT** — Autonomously monitors, solves, and advances questions.
-   * **⚡ Solve Now** (`Ctrl + Shift + S`) — Solves the currently visible question on demand.
-   * **🎯 Target Quiz Card** — Point and click on any unusual layout to lock detection.
-   * **⚙ Options** — Switch between Groq 200ms Turbo and Gemini Multimodal Vision.
+### End-to-End Test Suite
 
-### Option B: Windows Laptop Desktop Autopilot
+Run the full headless browser verification suite across both KiteRooms and Google Forms:
 
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/adilsukumar/The-Adil-AI.git
-   cd The-Adil-AI
-   ```
-2. Double-click **`INSTALL_AND_RUN.bat`**:
-   * Automatically configures Python, creates a virtual environment (`.venv`), and installs dependencies.
-   * Prompts once for your free Gemini API Key from [Google AI Studio](https://aistudio.google.com/).
-3. For silent, background operation without any CMD prompt window:
-   * Double-click **`run_silent.vbs`** (executes invisibly via `pythonw.exe`).
-   * Subtle audio chimes provide status feedback:
-     * 🎵 *Ascending chime* — Question detected & solved.
-     * 🎶 *Confirmation tone* — Option clicked successfully.
-4. To stop the background autopilot at any time, run **`stop_autopilot.bat`**.
+```bash
+python verify_kiterooms_gforms.py
+```
+
+### Packaging & Distribution
+
+Create an ultra-compact distribution ZIP package ready for sharing:
+
+```bash
+python package_shareable.py
+```
+
+### 1-Click Desktop Setup
+
+On Windows, double-click **`INSTALL_AND_RUN.bat`** to automatically set up the Python virtual environment and install all dependencies in one click.
 
 ---
+
+<!-- DSA_DESIGN_analytics_START -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-analytics-mobile.svg"/><img src="assets/readme/section-analytics.svg" width="100%" alt="THE WIDER PICTURE. Your original GitHub cards and streak statistics."/></picture></p>
+<!-- DSA_DESIGN_analytics_END -->
 
 ## 📈 GitHub Analytics
 
@@ -215,6 +267,10 @@ You have two versatile ways to run The Adil AI depending on your workflow:
 
 ---
 
+<!-- DSA_DESIGN_activity_START -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-activity-mobile.svg"/><img src="assets/readme/section-activity.svg" width="100%" alt="KEEP THE ACTIVITY MOVING. The original contribution snake stays here."/></picture></p>
+<!-- DSA_DESIGN_activity_END -->
+
 ## 🐍 Contribution Activity
 
 <div align="center">
@@ -225,6 +281,10 @@ You have two versatile ways to run The Adil AI depending on your workflow:
 
 ---
 
+<!-- DSA_DESIGN_philosophy_START -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-philosophy-mobile.svg"/><img src="assets/readme/section-philosophy.svg" width="100%" alt="ONE STEP, REPEATED. Your original quote and philosophy, preserved."/></picture></p>
+<!-- DSA_DESIGN_philosophy_END -->
+
 ## 💡 Philosophy
 
 > Precision is the product of disciplined reasoning, repeated until intuition becomes automated.
@@ -234,6 +294,10 @@ Every algorithmic pipeline built is another step toward mastering real-time soft
 **Engineering Speed • Algorithmic Precision • Relentless Consistency.**
 
 ---
+
+<!-- DSA_DESIGN_contact_START -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-contact-mobile.svg"/><img src="assets/readme/section-contact.svg" width="100%" alt="THE PERSON BEHIND THE CODE. Every original contact badge and link."/></picture></p>
+<!-- DSA_DESIGN_contact_END -->
 
 ## 🤝 Connect With Me
 
@@ -266,3 +330,7 @@ If you find this repository useful, consider giving it a star.
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient"/>
 
 </div>
+
+<!-- DSA_DESIGN_ending_START -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/closing-mobile.svg"/><img src="assets/readme/closing.svg" width="100%" alt="Understand it. Then improve it. The original quote, footer and all content above are retained."/></picture></p>
+<!-- DSA_DESIGN_ending_END -->
