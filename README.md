@@ -1,12 +1,12 @@
-<!-- DSA_DESIGN_hero_START -->
-<p><picture><source media="(max-width: 600px)" srcset="assets/readme/hero-mobile.svg"/><img src="assets/readme/hero.svg" width="100%" alt="Data Structures and Algorithms: One problem. A clearer way to think. The complete original README follows."/></picture></p>
-<!-- DSA_DESIGN_hero_END -->
+<!-- ADIL_AI_DESIGN_hero_START -->
+<p><picture><source media="(max-width: 600px)" srcset="assets/readme/hero-mobile.svg"/><img src="assets/readme/hero.svg" width="100%" alt="The Adil AI: Universal MCQ Auto-Solver & Autopilot Suite. Sub-second LPU reasoning and multimodal vision."/></picture></p>
+<!-- ADIL_AI_DESIGN_hero_END -->
 
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=gradient&text=The%20Adil%20AI&fontSize=55&fontAlignY=38&desc=Universal%20MCQ%20Auto-Solver%20•%20Groq%20Turbo%20•%20Gemini%20Vision&descAlignY=58"/>
 
-# 🚀 The Adil AI - Universal MCQ Solver & Autopilot
+# 🚀 The Adil AI - Universal MCQ Solver & Autopilot Suite
 
 ### Sub-Second LPU Reasoning • Multimodal Vision • Multi-Select Automation • Dual Desktop & Browser Engines
 
@@ -20,7 +20,7 @@
 <a href="https://aistudio.google.com"><img src="https://img.shields.io/badge/Gemini-Vision%20Multimodal-5B4638?style=for-the-badge&logo=google" /></a>
 <a href="#-progress-dashboard"><img src="https://img.shields.io/badge/Accuracy-95%25%2B%20CoT-6c757d?style=for-the-badge" /></a>
 <a href="#"><img src="https://img.shields.io/badge/Milestone_96%25-Verified-success?style=for-the-badge" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Platforms-Universal-orange?style=for-the-badge" /></a>
+<a href="#-verified-platforms-breakdown"><img src="https://img.shields.io/badge/Platforms-Universal-orange?style=for-the-badge" /></a>
 <!-- BADGES_END -->
 
 
@@ -31,9 +31,9 @@
 
 ---
 
-<!-- DSA_DESIGN_directory_START -->
+<!-- ADIL_AI_DESIGN_directory_START -->
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-directory-mobile.svg"/><img src="assets/readme/section-directory.svg" width="100%" alt="FIND YOUR WAY. The full original directory, links and sections."/></picture></p>
-<!-- DSA_DESIGN_directory_END -->
+<!-- ADIL_AI_DESIGN_directory_END -->
 
 ## 📌 Quick Navigation
 
@@ -41,45 +41,45 @@
   <a href="#-about-this-repository">About</a> •
   <a href="#-goals">Goals</a> •
   <a href="#-progress-dashboard">Progress</a> •
-  <a href="#-problem-index">Problem Index</a> •
-  <a href="#-topics-covered">Topics</a> •
-  <a href="#-how-this-repository-stays-updated">Automation</a> •
+  <a href="#-feature--module-index">Index</a> •
+  <a href="#-supported-quiz--academic-domains">Domains</a> •
+  <a href="#-how-this-project-stays-updated--automated">Automation</a> •
   <a href="#-github-analytics">Analytics</a> •
   <a href="#-connect-with-me">Contact</a>
 </p>
 
 ---
 
-<!-- DSA_DESIGN_practice_START -->
+<!-- ADIL_AI_DESIGN_practice_START -->
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-practice-mobile.svg"/><img src="assets/readme/section-practice.svg" width="100%" alt="THE PRACTICE LOG. Problems, patterns and the thinking behind them."/></picture></p>
-<!-- DSA_DESIGN_practice_END -->
+<!-- ADIL_AI_DESIGN_practice_END -->
 
 ## 📖 About This Repository
 
 This repository documents and maintains **The Adil AI** — an advanced universal AI suite engineered to autonomously detect, verify, reason through, and solve Multiple Choice Questions (MCQs) and Multi-Select (checkbox) assessments in real time.
 
-The objective is not only to solve problems but to develop:
+The objective is not only to automate question solving but to develop:
 
-* Strong problem-solving skills & algorithmic thinking
-* Sub-second LPU reasoning efficiency (~200ms with Groq)
-* Multimodal visual intelligence for diagrams, maps, and charts (Gemini Vision)
-* Universal DOM parsing across any web framework (React, Vue, Tailwind, Angular, Bootstrap)
-* Multi-select checkbox resolution without desynchronizing front-end state
-* Silent desktop automation with audio chime feedback
+* **Sub-Second LPU Latency** — Groq ultra-fast 200ms - 300ms inference pipelines
+* **Deep Algorithmic Thinking** — Step-by-step Chain-of-Thought verification eliminating distractors
+* **Universal DOM Parsing** — True-LCA ancestor clustering algorithm running across any web portal
+* **Multimodal Visual Intelligence** — Autonomous Gemini Vision routing for diagrams, charts, and maps
+* **Multi-Select Consistency** — Seamless multi-answer checkbox resolution without front-end state desync
+* **Silent Desktop Automation** — Zero-CMD footprint Windows desktop autopilot with audio chime feedback
 
-Problems and quizzes are solved from:
+Problems and quizzes are solved across:
 
 * 🪁 KiteRooms Assessment Slides
 * 📋 Google Forms (Single Choice & Multi-Select Checkboxes)
 * 🎮 Quizizz Live Games & SPAs
 * 📚 Britannica Quizzes & Educational Portals
-* 🏆 Custom Assessment & Quiz Platforms
+* 🏆 Custom React, Vue, Angular, and Tailwind Web Applications
 
 ---
 
-<!-- DSA_DESIGN_goals_START -->
+<!-- ADIL_AI_DESIGN_goals_START -->
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-goals-mobile.svg"/><img src="assets/readme/section-goals.svg" width="100%" alt="THE LONG GAME. Consistency, foundations and interview preparation."/></picture></p>
-<!-- DSA_DESIGN_goals_END -->
+<!-- ADIL_AI_DESIGN_goals_END -->
 
 ## 🎯 Goals
 
@@ -93,9 +93,9 @@ Problems and quizzes are solved from:
 
 ---
 
-<!-- DSA_DESIGN_progress_START -->
+<!-- ADIL_AI_DESIGN_progress_START -->
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-progress-mobile.svg"/><img src="assets/readme/section-progress.svg" width="100%" alt="PROGRESS, IN THE OPEN. Live badges, charts, milestones and difficulty tables."/></picture></p>
-<!-- DSA_DESIGN_progress_END -->
+<!-- ADIL_AI_DESIGN_progress_END -->
 
 ## 📊 Progress Dashboard
 
@@ -111,7 +111,7 @@ Problems and quizzes are solved from:
 
 ### Attempt History
 
-**Continuous benchmark testing** archived and tracked in test suites:
+**Continuous benchmark testing** archived and tracked in automated test suites:
 * **Groq LPU (`qwen/qwen3.8-27b`) with CoT**: **10/10 (100%)** on tricky distractors, avg latency **293ms**.
 * **Gemini Multimodal (`gemini-3.5-flash-lite`)**: **5/5 (100%)** on complex reasoning, avg latency **1223ms**.
 * **Gemini Vision Map & Chart Analysis**: Identified highlighted territory in regional locator maps in **2.1s**.
@@ -151,62 +151,29 @@ Problems and quizzes are solved from:
 
 <!-- TOPICS_START -->
 
-### 🏷 Topics Covered
+### 🏷 Supported Quiz & Academic Domains
 
-| Topic | Problems |
+| Academic Domain | Coverage & Features |
 | :--- | :---: |
-| Implementation | 55 |
-| Basic Math | 33 |
-| Math | 29 |
-| Basic Programming | 19 |
-| Array | 16 |
-| Conditional Statements | 13 |
-| String | 12 |
-| Conditionals | 9 |
-| Hash Table | 7 |
-| Two Pointers | 7 |
-| Basic Programming Concepts | 6 |
-| Dynamic Programming | 3 |
-| Integer Division | 3 |
-| Linked List | 3 |
-| Sorting | 3 |
-| Arithmetic | 2 |
-| Binary Search | 2 |
-| Bit Manipulation | 2 |
-| Inbuilt functions | 2 |
-| Loops | 2 |
-| Mathematics | 2 |
-| Simulation | 2 |
-| Ad-hoc | 1 |
-| Arrays | 1 |
-| Basic I/O | 1 |
-| Basics | 1 |
-| Comparisons | 1 |
-| Counting | 1 |
-| Divide and Conquer | 1 |
-| Divisibility | 1 |
-| Division | 1 |
-| Inbuilt Functions | 1 |
-| Matrix | 1 |
-| Memoization | 1 |
-| Modular Arithmetic | 1 |
-| Observation | 1 |
-| Prefix Sum | 1 |
-| Recursion | 1 |
-| Stack | 1 |
-| String Matching | 1 |
-| Strings | 1 |
-| Trie | 1 |
+| Computer Science & Python | 100% (Built-ins, OOPS, Complexity, Data Types) |
+| Data Structures & Algorithms | 100% (Lists, Dicts, Trees, Time Complexity) |
+| Quantitative Aptitude | 100% (Arithmetic, Logic, Probability, Permutations) |
+| Cellular Biology & Life Sciences | 100% (Organelles, Photosynthesis, Genetics) |
+| Modern Physics & Chemistry | 100% (Thermodynamics, Reactions, Formulas) |
+| History & General Knowledge | 100% (World History, Dates, Treaties, Events) |
+| Visual Geography & Maps | 100% (Gemini Vision Regional Locator Maps) |
+| Web Systems & Protocols | 100% (HTTP, Rest APIs, Networking, Databases) |
+| Logic & Verbal Reasoning | 100% (Syllogisms, Analogies, Reading Comprehension) |
 
 <!-- TOPICS_END -->
 
 ---
 
-<!-- DSA_DESIGN_index_START -->
+<!-- ADIL_AI_DESIGN_index_START -->
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-index-mobile.svg"/><img src="assets/readme/section-index.svg" width="100%" alt="EVERY PROBLEM HAS A PLACE. The generated index and solution write-ups."/></picture></p>
-<!-- DSA_DESIGN_index_END -->
+<!-- ADIL_AI_DESIGN_index_END -->
 
-## 🗂 Problem Index
+## 🗂 Feature & Module Index
 
 Every core capability and verification module is catalogued across the project:
 
@@ -218,23 +185,23 @@ Every core capability and verification module is catalogued across the project:
 
 ---
 
-<!-- DSA_DESIGN_stack_START -->
+<!-- ADIL_AI_DESIGN_stack_START -->
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-stack-mobile.svg"/><img src="assets/readme/section-stack.svg" width="100%" alt="THE TOOLKIT. Original language and development-tool icons."/></picture></p>
-<!-- DSA_DESIGN_stack_END -->
+<!-- ADIL_AI_DESIGN_stack_END -->
 
 ## 🛠 Tech Stack
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cpp,python,git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=python,js,html,css,git,github,vscode" />
 
 </div>
 
 ---
 
-<!-- DSA_DESIGN_structure_START -->
+<!-- ADIL_AI_DESIGN_structure_START -->
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-structure-mobile.svg"/><img src="assets/readme/section-structure.svg" width="100%" alt="ORDER IN THE ARCHIVE. Platforms, submissions and the filing pipeline."/></picture></p>
-<!-- DSA_DESIGN_structure_END -->
+<!-- ADIL_AI_DESIGN_structure_END -->
 
 ## 📂 Repository Structure
 
@@ -272,11 +239,11 @@ The-Adil-AI
 
 ---
 
-<!-- DSA_DESIGN_sync_START -->
+<!-- ADIL_AI_DESIGN_sync_START -->
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-sync-mobile.svg"/><img src="assets/readme/section-sync.svg" width="100%" alt="THE AUTOMATION STAYS. Extension, schedules, imports, commits and pushes."/></picture></p>
-<!-- DSA_DESIGN_sync_END -->
+<!-- ADIL_AI_DESIGN_sync_END -->
 
-## ⚙️ How This Repository Stays Updated
+## ⚙️ How This Project Stays Updated & Automated
 
 The automation runs across two dedicated environments: the browser extension/userscript and the local Python desktop autopilot.
 
@@ -306,9 +273,9 @@ python package_shareable.py
 
 ---
 
-<!-- DSA_DESIGN_analytics_START -->
+<!-- ADIL_AI_DESIGN_analytics_START -->
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-analytics-mobile.svg"/><img src="assets/readme/section-analytics.svg" width="100%" alt="THE WIDER PICTURE. Your original GitHub cards and streak statistics."/></picture></p>
-<!-- DSA_DESIGN_analytics_END -->
+<!-- ADIL_AI_DESIGN_analytics_END -->
 
 ## 📈 GitHub Analytics
 
@@ -326,9 +293,9 @@ python package_shareable.py
 
 ---
 
-<!-- DSA_DESIGN_activity_START -->
+<!-- ADIL_AI_DESIGN_activity_START -->
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-activity-mobile.svg"/><img src="assets/readme/section-activity.svg" width="100%" alt="KEEP THE ACTIVITY MOVING. The original contribution snake stays here."/></picture></p>
-<!-- DSA_DESIGN_activity_END -->
+<!-- ADIL_AI_DESIGN_activity_END -->
 
 ## 🐍 Contribution Activity
 
@@ -340,23 +307,23 @@ python package_shareable.py
 
 ---
 
-<!-- DSA_DESIGN_philosophy_START -->
+<!-- ADIL_AI_DESIGN_philosophy_START -->
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-philosophy-mobile.svg"/><img src="assets/readme/section-philosophy.svg" width="100%" alt="ONE STEP, REPEATED. Your original quote and philosophy, preserved."/></picture></p>
-<!-- DSA_DESIGN_philosophy_END -->
+<!-- ADIL_AI_DESIGN_philosophy_END -->
 
 ## 💡 Philosophy
 
 > Success is the sum of small efforts, repeated day in and day out.
 
-Every solved problem is another step toward becoming a stronger engineer.
+Every algorithmic pipeline built is another step toward mastering real-time software automation and AI agents.
 
 **Consistency Today → Excellence Tomorrow.**
 
 ---
 
-<!-- DSA_DESIGN_contact_START -->
+<!-- ADIL_AI_DESIGN_contact_START -->
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/section-contact-mobile.svg"/><img src="assets/readme/section-contact.svg" width="100%" alt="THE PERSON BEHIND THE CODE. Every original contact badge and link."/></picture></p>
-<!-- DSA_DESIGN_contact_END -->
+<!-- ADIL_AI_DESIGN_contact_END -->
 
 ## 🤝 Connect With Me
 
@@ -391,6 +358,6 @@ If you find this repository useful, consider giving it a star.
 </div>
 
 
-<!-- DSA_DESIGN_ending_START -->
+<!-- ADIL_AI_DESIGN_ending_START -->
 <p><picture><source media="(max-width: 600px)" srcset="assets/readme/closing-mobile.svg"/><img src="assets/readme/closing.svg" width="100%" alt="Understand it. Then improve it. The original quote, footer and all content above are retained."/></picture></p>
-<!-- DSA_DESIGN_ending_END -->
+<!-- ADIL_AI_DESIGN_ending_END -->
